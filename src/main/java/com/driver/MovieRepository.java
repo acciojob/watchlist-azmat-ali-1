@@ -64,10 +64,10 @@ public class MovieRepository {
         }
 
     //7
-    public List<Movie> getAllMovie(){
-        List<Movie>listOfMovies = new ArrayList<>();
+    public List<String> getAllMovie(){
+        List<String>listOfMovies = new ArrayList<>();
         for(Movie i : movieMap.values()){
-            listOfMovies.add(i);
+            listOfMovies.add(i.getName());
         }
         return listOfMovies;
     }

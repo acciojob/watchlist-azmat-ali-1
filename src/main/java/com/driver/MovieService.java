@@ -39,7 +39,7 @@ public class MovieService {
     }
 
     //7
-    public List<Movie> getListOfAllMovieS(){
+    public List<String> getListOfAllMovieS(){
         return movieRepository.getAllMovie();
     }
     //8
